@@ -4,7 +4,6 @@
 //
 //  Created by Heather Q Hay on 12/10/17.
 //  Copyright © 2017 Alder & Vine. All rights reserved.
-//  test to see tha gitkraken changes
 //
 
 import UIKit
@@ -19,14 +18,14 @@ class ViewController: UIViewController {
         
         if buttonCount >= 10 {
         //comment out color change
-       // view.backgroundColor = UIColor.darkGray
+        view.backgroundColor = UIColor.darkGray
         test1.text = "you hit it enough!!"
             
         }
         
-     //   if buttonCount >= 12 {
-     //       test1.text = "ok that's probably enough"
-     //   }
+        if buttonCount >= 12 {
+            test1.text = "ok that's probably enough"
+        }
         
         if buttonCount >= 14 {
             view.backgroundColor = UIColor.red
