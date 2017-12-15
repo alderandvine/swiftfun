@@ -9,15 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var buttonCount = 0
+  //  var buttonCount = 0
     @IBOutlet weak var test1: UILabel!
     
+    @IBOutlet weak var toptextfield: UITextField!
+    
+    @IBOutlet weak var bottomtextfield: UITextField!
+    
+    @IBOutlet weak var addorsub: UISwitch!
     @IBAction func action1(_ sender: Any) {
-        buttonCount = buttonCount + 1
+        
+        let addition = addorsub.isOn
+        if addition {
+            let sum = Double(toptextfield.text!)! + Double(bottomtextfield.text!)!
+            test1.text = "\(toptextfield.text!) + \(bottomtextfield.text!) = \(sum)"
+        } else {
+            let sum = Double(toptextfield.text!)! - Double(bottomtextfield.text!)!
+            test1.text = "\(toptextfield.text!) - \(bottomtextfield.text!) = \(sum)"
+            
+        }
+        
+ 
+        
+        
+        /*
+        buttonCount += 1
         print (buttonCount)
         
         if buttonCount >= 10 {
-        //comment out color change
+      
         view.backgroundColor = UIColor.darkGray
         test1.text = "you hit it enough!!"
             
@@ -30,7 +50,10 @@ class ViewController: UIViewController {
         if buttonCount >= 14 {
             view.backgroundColor = UIColor.red
             test1.text = "no seriously - stop it"
+ 
+        
         }
+*/
     }
     override func viewDidLoad() {
         super.viewDidLoad()
