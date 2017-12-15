@@ -3,7 +3,8 @@
 //  swiftfun
 //
 //  Created by Heather Q Hay on 12/10/17.
-//  Copyright © 2017 Alder & Vine. All rights reserved. .
+//  Copyright © 2017 Alder & Vine. All rights reserved.
+//  test to see tha gitkraken changes
 //
 
 import UIKit
