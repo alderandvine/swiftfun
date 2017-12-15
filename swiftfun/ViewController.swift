@@ -3,7 +3,7 @@
 //  swiftfun
 //
 //  Created by Heather Q Hay on 12/10/17.
-//  Copyright © 2017 Alder & Vine. All rights reserved. . . .
+//  Copyright © 2017 Alder & Vine. All rights reserved. .
 //
 
 import UIKit
@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         print (buttonCount)
         
         if buttonCount >= 10 {
-        
-        view.backgroundColor = UIColor.darkGray
+        //comment out color change
+       // view.backgroundColor = UIColor.darkGray
         test1.text = "you hit it enough!!"
             
         }
