@@ -3,7 +3,7 @@
 //  swiftfun
 //
 //  Created by Heather Q Hay on 12/10/17.
-//  Copyright © 2017 Alder & Vine. All rights reserved.
+//  Copyright © 2017 Alder & Vine. All rights reserved. . . .
 //
 
 import UIKit
@@ -23,9 +23,9 @@ class ViewController: UIViewController {
             
         }
         
-        if buttonCount >= 12 {
-            test1.text = "ok that's probably enough"
-        }
+     //   if buttonCount >= 12 {
+     //       test1.text = "ok that's probably enough"
+     //   }
         
         if buttonCount >= 14 {
             view.backgroundColor = UIColor.red
